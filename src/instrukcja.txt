@@ -1,0 +1,10 @@
+obecie w mamy wyswietlony w hotelach wbity na sztywno (hard code) widoki hoteli
+oba takie same
+
+notatka w anki ma taki tytuł : ts r
+wdrozenie stanu aplikacji
+
+// zadanie
+stwrz stan w odpowiednim hotelu i przekazd o odpowiednich komponentow dane z backendu
+w tym przypadku nie mamy backendu wiec narazie stworzymy tablice z obiektami w srodku 
+reprezentujacymi poszczególne hotele
