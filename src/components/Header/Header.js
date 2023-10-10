@@ -1,11 +1,11 @@
-import React from 'react';
-import Searchbar from './Searchbar/Searchbar';
-import styles from './Header.module.css';
+import React from "react";
+import Searchbar from "./Searchbar/Searchbar";
+import styles from "./Header.module.css";
 
-function Header() {
+function Header(props) {
   return (
     <header className={`container ${styles.header}`}>
-      <Searchbar />
+      <Searchbar onSearch={props.onSearch} />
     </header>
   );
 }

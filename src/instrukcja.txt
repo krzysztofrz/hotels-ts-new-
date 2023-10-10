@@ -4,10 +4,34 @@ oba takie same
 notatka w anki ma taki tytuł : ts r
 wdrozenie stanu aplikacji
 
-****** zadanie 5.3
+****** zadanie 5.3 *****************
 stwrz stan w odpowiednim hotelu i przekazd o odpowiednich komponentow dane z backendu
 w tym przypadku nie mamy backendu wiec narazie stworzymy tablice z obiektami w srodku 
 reprezentujacymi poszczególne hotele
 
 
-****** zadanie 5.5 przekazywanie propsow w gore
+
+
+****** zadanie 5.5 przekazywanie propsow w gore ***********************
+w anki tak sie nazywa notatka:
+ts r
+przekazywanie propsow w gore
+
+obecnie struktura wyglada taki
+
+<App>
+    <Header>
+        <Searchbar/>
+    </Header>
+    <Menu/>
+    <Hotels>
+        <Hotel/>
+        <Hotel/>
+    </Hotels>
+</App>
+
+wiemy ze stan czyli to co w komponentach hotel mamy w App, czyli stan jest w App
+dlagego żę musimy miec wspolny komponent dla searchbar i dla hotel a App to jedyny wspolny komponent
+
+zadanie polega na tym zeby wyslac dane z searchbar do App czyli do gory
+
