@@ -3,7 +3,6 @@ import styles from "./Hotel.module.css";
 import hotelImg from "../../../assets/images/hotel.jpg";
 import Hotels from "../Hotels";
 
-//  tu mamy kompnent funkcyjny hotel i musimy my przekazac propsy ktore dostalismy z hotels
 function Hotel(props) {
   return (
     <div className={`card ${styles.hotel}`}>
@@ -15,16 +14,11 @@ function Hotel(props) {
           <div className="col-8">
             <div className="row">
               <div className="col">
-                {/* // czyli tu juz nie bedzie na sztywno pensjonat // tylko bedzie
-                // to co dostaniemy z propsow, i tak podmieniamy wszystkie //
-                wartosci */}
-                {/* <p className={styles.title}>Pensjonat</p> */}
                 <p className={styles.title}>{props.name}</p>
-                {/* <span className="badge badge-light">Warszawa</span> */}
+
                 <span className="badge badge-light">{props.city}</span>
               </div>
               <div className="col text-right">
-                {/* <h5>Ocena: 8.3</h5> */}
                 <h5>Ocena: {props.rating}</h5>
                 <a href="#" className="btn btn-primary mt-2 px-4">
                   Pokaż
@@ -34,10 +28,6 @@ function Hotel(props) {
           </div>
 
           <div className="col-12">
-            {/* <p className={styles.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              consequat id lorem vitae accumsan.
-            </p> */}
             <p className={styles.description}>{props.description}</p>
           </div>
         </div>

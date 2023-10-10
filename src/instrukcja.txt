@@ -4,7 +4,10 @@ oba takie same
 notatka w anki ma taki tytuł : ts r
 wdrozenie stanu aplikacji
 
-// zadanie
+****** zadanie 5.3
 stwrz stan w odpowiednim hotelu i przekazd o odpowiednich komponentow dane z backendu
 w tym przypadku nie mamy backendu wiec narazie stworzymy tablice z obiektami w srodku 
 reprezentujacymi poszczególne hotele
+
+
+****** zadanie 5.5 przekazywanie propsow w gore
